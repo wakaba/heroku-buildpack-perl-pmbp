@@ -1,0 +1,12 @@
+#!/bin/sh
+BUILD_DIR=$1
+CACHE_DIR=$2
+ENV_DIR=$3
+
+indent() {
+  sed -u 's/^/       /'
+}
+
+cd $1
+echo "-----> Building dependencies..."
+make deps 2>&1 | indent
