@@ -5,4 +5,4 @@ ENV_DIR=$3
 
 cd $1
 echo "-----> Building dependencies..."
-make deps PMBP_OPTIONS=--dump-info-file-before-die 2>&1
+make deps PMBP_OPTIONS="--dump-info-file-before-die --perl-relocatable" 2>&1
