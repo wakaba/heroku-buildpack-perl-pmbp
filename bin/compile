@@ -7,3 +7,4 @@ export PMBP_HEROKU_BUILDPACK=1
 cd $1
 echo "-----> Building dependencies..."
 make deps PMBP_OPTIONS="--dump-info-file-before-die --perl-relocatable" 2>&1
+echo "-----> make deps done"
