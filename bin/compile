@@ -11,5 +11,6 @@ mkdir -p local/perlbrew
 cp -R $CACHE_DIR/local/perlbrew/perls local/perlbrew/ || true
 make deps PMBP_OPTIONS="--dump-info-file-before-die --perl-relocatable" 2>&1 && \
 echo "-----> make deps done"
+rm -fr $CACHE_DIR/local/perlbrew
 mkdir -p $CACHE_DIR/local/perlbrew
 cp -R local/perlbrew/perls $CACHE_DIR/local/perlbrew/ || true
