@@ -1,0 +1,14 @@
+A Heroku buildpack for Perl + pmbp
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is a Heroku buildpack to run a Perl application using the pmbp.pl tool <https://github.com/wakaba/perl-setupenv>.
+
+The latest version is available at: <https://github.com/wakaba/heroku-buildpack-perl-pmbp>.
+
+* Author
+
+Wakaba <wakaba@suikawiki.org>.
+
+* License
+
+See LICENSE.
